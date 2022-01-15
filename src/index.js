@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./Header";
-function App() {
+const App = (
   <div>
     <Header></Header>
-  </div>;
-}
+  </div>
+);
 ReactDOM.render(App, document.querySelector("#root"));
