@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  margin: 100px 100px;
+  font-family: "Open Sans", sans-serif;
+}
+.image {
+  background: rgb(35, 49, 70);
+}
+button {
+  background-color: cadetblue;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  bottom: 0px;
+}

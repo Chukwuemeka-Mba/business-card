@@ -1,5 +1,5 @@
 import React from "react";
-import "./taleb.jpg";
+
 function Header() {
   return (
     <div className="header">
