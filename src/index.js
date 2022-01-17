@@ -6,6 +6,7 @@ import Buttons from "./Buttons";
 import Content from "./Content";
 import Footer from "./Footer";
 import "./index.css";
+import "./styles/main.css";
 const App = (
   <div className="card">
     <Header></Header>

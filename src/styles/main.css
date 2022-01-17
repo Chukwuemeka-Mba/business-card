@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  margin: 100px 100px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  background-color: rgb(26, 27, 29);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  margin-top: 20px;
+}
+
+.summary p {
+  margin: 5px;
+}
+.summary a {
+  color: gray;
+  text-decoration: none;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.summary h1 {
+  font-family: sans-serif;
+  margin: 0px;
+  font-weight: 200px;
+}
+button {
+  width: 40%;
+  height: 40px;
+  border: 0px;
+  border-radius: 3px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.linkedin {
+  background-color: rgb(1, 143, 224);
+  color: aliceblue;
+}
+
+.email {
+  background-color: aliceblue;
+  color: black;
+}
+button .linkedin :hover {
+  color: aqua;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin: 20px 0px;
+}
+.about,
+.interests {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 10px;
+  margin: 20px;
+  color: aliceblue;
+}
+
+.about h1,
+.interests h1 {
+  margin-bottom: 0px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  bottom: 0px;
+  background-color: rgb(35, 49, 70);
+  padding: 10px;
+}
+
+.footer a {
+  color: white;
+}
