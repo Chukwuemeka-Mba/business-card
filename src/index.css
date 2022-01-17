@@ -3,12 +3,30 @@ body {
   margin: 100px 100px;
   font-family: "Open Sans", sans-serif;
 }
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .image {
-  background: rgb(35, 49, 70);
+  background-repeat: no-repeat;
+  height: 300px;
 }
 button {
   background-color: cadetblue;
 }
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary p {
+  margin: 5px;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -16,4 +34,10 @@ button {
   align-items: center;
   gap: 10px;
   bottom: 0px;
+  background-color: rgb(35, 49, 70);
+  padding: 10px;
+}
+
+.footer a {
+  color: white;
 }

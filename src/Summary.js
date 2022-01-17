@@ -2,7 +2,7 @@ import React from "react";
 
 function Summary() {
   return (
-    <div>
+    <div className="summary">
       <h1>Nassim Taleb</h1>
       <p>Risk Analyst, Financial Trader</p>
       <a href="https://fooledbyrandomness.com">fooledbyrandomness.com</a>
