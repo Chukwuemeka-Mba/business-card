@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="header">
       <div className="image">
-        <img src="require(./taleb.jpg)" alt="" />
+        <img src={require("./taleb.jpg")} alt="" />
       </div>
     </div>
   );

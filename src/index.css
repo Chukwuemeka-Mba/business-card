@@ -3,15 +3,20 @@ body {
   margin: 100px 100px;
   font-family: "Open Sans", sans-serif;
 }
+
 .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 53, 70);
+  border-radius: 500px;
 }
-.image {
-  background-repeat: no-repeat;
-  height: 300px;
+
+.image :hover {
+  transform: 1.5ms;
 }
+
 button {
   background-color: cadetblue;
 }
