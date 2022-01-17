@@ -25,7 +25,9 @@ body {
   color: gray;
   text-decoration: none;
 }
-
+a {
+  text-decoration: none;
+}
 .summary {
   display: flex;
   flex-direction: column;
@@ -40,7 +42,7 @@ body {
   font-weight: 200px;
 }
 button {
-  width: 40%;
+  width: 200px;
   height: 40px;
   border: 0px;
   border-radius: 3px;
@@ -60,9 +62,6 @@ button {
 .email {
   background-color: aliceblue;
   color: black;
-}
-button .linkedin :hover {
-  color: aqua;
 }
 .buttons {
   display: flex;
@@ -101,4 +100,12 @@ button .linkedin :hover {
 
 .footer a {
   color: white;
+}
+
+.footer-icon {
+  font-size: 30px;
+}
+
+.footer-icon :hover {
+  color: rgb(25, 144, 241);
 }
