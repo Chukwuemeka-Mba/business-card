@@ -1,6 +1,6 @@
 # React Business Card
 
-## A static react applicaton to display my dev awesomeness if i do say so myself.
+#### Small react project styles with css and tailwind with custom react icons
 
 ### Prototype:
 
@@ -8,5 +8,10 @@
 
 ### Actual
 
+#### slide-a
+
 <img src="/src/images/taleb-0.5.png">
+
+#### slide-b
+
 <img src="/src/images/taleb-1.0.png">
