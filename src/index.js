@@ -7,7 +7,7 @@ import Content from "./Content";
 import Footer from "./Footer";
 import "./index.css";
 const App = (
-  <div>
+  <div className="card">
     <Header></Header>
     <Summary></Summary>
     <Buttons></Buttons>

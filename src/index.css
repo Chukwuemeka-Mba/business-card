@@ -4,13 +4,14 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.card {
+  background-color: rgb(26, 27, 29);
+}
 .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(35, 53, 70);
-  border-radius: 500px;
 }
 
 .image :hover {
@@ -19,19 +20,40 @@ body {
 
 button {
   background-color: cadetblue;
+  padding: 5px 10px;
 }
-
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin: 20px 0px;
+}
 .summary {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: aliceblue;
 }
 
 .summary p {
   margin: 5px;
 }
-
+.summary h1 {
+  margin: 0px;
+  font-weight: 200px;
+}
+.about,
+.interests {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+  color: aliceblue;
+}
 .footer {
   display: flex;
   flex-direction: row;

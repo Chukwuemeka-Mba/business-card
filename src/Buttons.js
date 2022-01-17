@@ -3,7 +3,7 @@ import React from "react";
 function Buttons() {
   return (
     <div>
-      <div>
+      <div className="buttons">
         <button type="" className="email">
           <i className="bi bi-envelope" />
           Email
